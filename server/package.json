@@ -1,0 +1,14 @@
+{
+  "name": "kiosk-tech-challenge-server",
+  "version": "1.0.0",
+  "description": "Sample server for Kiosk Tech Challenge",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lavu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "proxy": "http://localhost:3001"
+}
